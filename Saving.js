@@ -108,9 +108,6 @@ function eachweekfn(F, A, D, I, T) {
         var si = (Math.log(c) / Math.log(d))/52;
     }
 
-    // y = new Date().getFullYear();
-    // result1 = y + parseInt(si);
-
     //getting decimal number only
 
     si1 = si.toFixed(1);
