@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>
+            Hlo there !!!
+        </title>
+        <style>
+            .button {
+              color: #181818;
+              padding: 15px 32px;
+              text-align: center;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
+
+            .button1 {background-color: #34a5e6 ;}
+        </style>
+        <script type = "text/javascript" src="Saving.js"></script>
+    </head>
+<body>
+        <h1 style="color: #34a5e6">Saving Calculator</h1>
+        <h3>How long will it take to reach my goal amount?</h3>
+        <p>What is your savings goal? (in £) *</p>
+        <input type="text" id="F">
+
+        <form action="#">
+            <p>How much can you save? (in £) *</p>
+            <input type="text" id="A">
+            <select name="duration" id="duration">
+              <option value="Each month">Each month</option>
+              <option value="Each week">Each week</option>
+              <option value="Each year">Each year</option>
+            </select>
+      </form>
+
+        <p>How much have you saved already? (in £)</p>
+        <input type="text" id="D">
+
+        <p>Gross annual interest rate on your savings (in %)</p>
+        <input type="text" id="I"><br><br>
+
+
+        <button class="button">Back</button>
+        <button class="button button1" onclick = "si()">Next</button>
+      
+        <div id="res"></div>
+
+
+
+</body>
+</html>
